@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>
+            <!-- Hola Mundo -->
+            {{msj}}
+        </h2>
+        <br>
+        <h3>
+        <!-- Interpolacion de strings -->
+            <!-- Split nos permite capturar un char -->
+            <!-- Reverse lee los datos de atras para adelante -->
+            <!-- Join -> Unir -->
+            {{msj.split('').reverse('').join('')}}
+        </h3>
+        <br>
+        <h3>
+            <!-- Numeros -->
+            {{n + 20}}
+        </h3>
+        <br>
+        <h3> 
+            <!-- Booleano -->
+            {{esActivo ? 'Esta Activado' : 'No esta Activado'}}
+        </h3>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="clase1-3.js"></script>
+</html>

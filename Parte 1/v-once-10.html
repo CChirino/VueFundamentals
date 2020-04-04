@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-once - Doble Renderizado</title>
+</head>
+<body>
+    <div id="app">
+        <h1 v-once >
+            <!-- Mantiene el valor actual de titulo y no lo va cambiar, se mantine estatico -->
+        {{titulo}}
+        </h1>
+        <p>
+            {{mostrarTitulo()}}
+        </p>
+        
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="v-once-10.js"></script>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-if</title>
+</head>
+<body>
+    <div id="app">
+    <!-- v-show me permite visualizar datos siempre y cuando sea verdadera (true), si es falsa -->
+    <!-- no se va a mostrar -->
+    <div v-if="esMadrugada">
+        Hola, soy un fantasama BOOOO
+    </div>
+    <div v-else>
+        No soy un fantasama
+    </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="v-if-13.js"></script>
+</html>

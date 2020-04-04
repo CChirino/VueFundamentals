@@ -1,0 +1,5 @@
+Para el formateo de fechas vamos a utilizar una librería externa llamada Moment.js, que permite parsear, manipular, visualizar y calcular fechas y horas en JavaScript.
+
+Web de moment: momentsjs.com
+
+CDN: https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.js

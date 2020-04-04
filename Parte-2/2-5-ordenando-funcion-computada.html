@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad Computada</title>
+</head>
+<body>
+    <div id="app">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Pais</th>
+                    <th>Electricidad</th>
+                </tr>
+            </thead>
+            <!-- Ordenamos Lista con la proiedad Computada -->
+            <tr v-for="presa in presasPorElectricidad">
+                <td> {{presa.nombre}} </td>
+                <td> {{presa.pais}} </td>
+                <td> {{presa.electricidad}} Megawatts </td>
+            </tr>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="2-5-propiedad-computada-funcion.js"></script>
+</html>

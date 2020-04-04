@@ -1,0 +1,9 @@
+Para la siguiente lección, vamos a necesitar que copies las siguientes direcciones en un bloc de notas, para luego utilizarlo en tu programa.
+
+Librería Accounting.js: http://openexchangerates.github.io/accounting.js/
+
+CDN de la librería:
+
+En el video verás esta dirección: https://cdn.jsdelivr.net/accounting.js/0.3.2/accounting.js
+
+La dirección anterior ya n esta funcionando, pero puedden utilizar esta nueva dirección: https://raw.githubusercontent.com/openexchangerates/accounting.js/master/accounting.js

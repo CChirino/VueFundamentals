@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listando Objetos</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            {{mostrarTitulo()}}
+        </ul>
+        <input type="text" name="" id="" v-model="iniciarContador" @keyup.enter="cambiarContador" > 
+        <button v-on:click="aumentarContador(3)">Sumar + 3</button>
+        <p>{{contador}}</p>
+        <p v-on:mousemove="actualizarValores">
+            Valor de x: {{x}} <br>
+            Valor de y: {{y}}
+        </p>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="obtener-datos-de-eventos-15.js"></script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Binding</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 1era Froma -->
+        <h1>{{entrada}}</h1>
+        <!-- 2da Forma -->
+        <input type="text" v-model="entrada" > <br>
+        <!-- 3era Forma -->
+        <a :href="url">Ir a codigo OnClick</a>
+        <pre>{{$data}}</pre>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="databinding4.js"></script>
+</html>

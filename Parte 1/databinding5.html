@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Binding</title>
+</head>
+<body>
+    <div id="app">
+        <form action="">
+            <!-- Databinding Doble via -->
+            <input type="text" name="" id="" v-model="options"> <br>
+            <input type="checkbox" name="" id="" value="opcion-1" v-model="options"> Opcion 1
+            <input type="checkbox" name="" id="" value="opcion-2" v-model="options"> Opcion 2
+            <input type="checkbox" name="" id="" value="opcion-3" v-model="options"> Opcion 3
+            <p>Ustede selecciono: {{options.join(' , ')}}.</p>
+        </form>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="databinding5.js"></script>
+</html>
